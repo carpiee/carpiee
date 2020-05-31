@@ -1,0 +1,64 @@
+<div id="maggeeditword">
+            <?php require_once './inc/templates/header.php'; ?>
+            <section id="info" class="container mx-auto px-6 p-10">
+                <h2 class="md:text-4xl text-3xl font-bold text-center text-gray-800 mb-8">
+                    Hoe gaan wij te werk?
+                </h2>
+                <div class="flex items-center flex-wrap mb-20">
+                    <div class="w-full md:w-1/2 md:px-6">
+                        <h4 class="text-2xl text-gray-800 font-bold mb-3">Samen tot een idee</h4>
+                        <p class="text-gray-600 mb-8">Lorem Ipsum is simply dummy text of the printing and typesetting
+                            industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when
+                            an
+                            unknown printer took a galley of type and scrambled it to make a type specimen book. It has
+                            survived not only five centuries, but also the leap into electronic typesetting, remaining
+                            essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets
+                            containing Lorem Ipsum passages, and more recently with desktop publishing software like
+                            Aldus
+                            PageMaker including versions of Lorem Ipsum.</p>
+                    </div>
+                    <div class="w-full flex justify-center md:w-1/2">
+                        <img class="h-64 md:h-auto" src="./img/idee.png"
+                            alt="Samen komen we tot een idee voor u website" />
+                    </div>
+                </div>
+
+                <div class="flex items-center flex-wrap-reverse mb-20">
+                    <div class="w-full flex justify-center md:w-1/2">
+                        <img class="h-64 md:h-auto" src="./img/design.png"
+                            alt="Wij maken een design en sturen het naar u op." />
+                    </div>
+                    <div class="w-full md:w-1/2 md:pl-10">
+                        <h4 class="text-2xl text-gray-800 font-bold mb-3">Maken</h4>
+                        <p class="text-gray-600 mb-8">Lorem Ipsum is simply dummy text of the printing and typesetting
+                            industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when
+                            an
+                            unknown printer took a galley of type and scrambled it to make a type specimen book. It has
+                            survived not only five centuries, but also the leap into electronic typesetting, remaining
+                            essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets
+                            containing Lorem Ipsum passages, and more recently with desktop publishing software like
+                            Aldus
+                            PageMaker including versions of Lorem Ipsum.</p>
+                    </div>
+                </div>
+
+                <div class="flex items-center flex-wrap mb-20">
+                    <div class="w-full md:w-1/2 md:mr-10">
+                        <h4 class="text-2xl text-gray-800 font-bold mb-3">Resultaat</h4>
+                        <p class="text-gray-600 mb-8">Lorem Ipsum is simply dummy text of the printing and typesetting
+                            industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when
+                            an
+                            unknown printer took a galley of type and scrambled it to make a type specimen book. It has
+                            survived not only five centuries, but also the leap into electronic typesetting, remaining
+                            essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets
+                            containing Lorem Ipsum passages, and more recently with desktop publishing software like
+                            Aldus
+                            PageMaker including versions of Lorem Ipsum.</p>
+                    </div>
+                    <div class="w-full flex justify-center max-w-sm h-auto md:w-1/2">
+                        <img class="h-64 md:h-auto" src="./img/result.png" alt="Syncing" />
+                    </div>
+                </div>
+            </section>
+            <?php require_once './inc/templates/footer.php'; ?>
+        </div>
